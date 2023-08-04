@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.main {
+  display: flex;
+  height: 87vh;
+  overflow: hidden;
+}
+.left-main {
+  flex: 1;
+  background: #000;
+  overflow-y: scroll;
+}
+.right-main {
+  flex: 4;
+  background: linear-gradient(
+    180deg,
+    #222 0%,
+    #1f1f1f 11.64%,
+    #171717 25.66%,
+    #161616 32.94%,
+    #151515 35.98%,
+    #131313 44.89%,
+    #121212 55.22%,
+    #121212 75.34%,
+    #121212 85.45%,
+    rgba(18, 18, 18, 0) 100%
+  );
+  overflow-y: scroll;
+}
+.left-main-2nd {
+  display: flex;
+  flex-direction: column;
+}
+.span-class {
+  padding-left: 15px;
+}
+.left-main-2nd > button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 15px;
+  font-family: DM Sans;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: left;
+}
+.left-main-2nd > button:hover {
+  border-radius: 6px;
+  background: #282828;
+}
+.left-main-3rd {
+  display: flex;
+  flex-direction: column;
+}
+.left-main-3rd > button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 15px;
+  font-family: DM Sans;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: left;
+}
+.left-main-3rd > button:hover {
+  border-radius: 6px;
+  background: #282828;
+}
+.rand-icon > img {
+  border: 1px solid #004638;
+  padding: 5px;
+  border-radius: 5px;
+  background: #004638;
+}
+.heart-icon > img {
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+  padding: 10px;
+  border-radius: 5px;
+}
+.plus-icon > img {
+  background: #fff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 3vh;
+  height: 10vh;
+  width: 100vw;
+  background: #181818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-main-4th {
+  display: flex;
+  flex-direction: column;
+}
+.left-main-4th > button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 15px;
+  font-family: DM Sans;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: left;
+}
+.left-main-4th > button:hover {
+  border-radius: 6px;
+  background: #282828;
+}
+.right-main-top-left > button {
+  border-radius: 50%;
+  background: #131313;
+  border: none;
+  margin-inline: 5px;
+  margin-top: 10px;
+}
+.head-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 38px;
+  font-weight: 700;
+  padding: 20px;
+}
+.small-cards {
+  border: #303030;
+  background-color: #303030;
+  border-radius: 4px;
+  width: 320px;
+  margin-top: 10px;
+}
+.first-card-img > img {
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+  padding: 45px;
+}
+.first-card-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.rand-heading {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1.89px;
+}
+.rand-text {
+  color: #b3b3b3;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+.col-1-foot {
+  width: 20%;
+}
+.col-2-foot {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col-3-foot {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.hold-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+}
+.justin-name {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+}
+.card-body {
+  padding: 0px !important;
+}
+.img-div > img {
+  width: 80%;
+}
+.last-div {
+  height: 3vh;
+  width: 100vw;
+  bottom: 0px;
+  padding-right: 30px;
+  position: fixed;
+  background: #1ed760;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.last-div-text {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 700;
+}
+.right-main-top{
+  display: flex;
+  justify-content: space-between;
+}
+.right-main-top-right{
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.right-main-top-right > button
+{
+  border-radius: 33px;
+  background-color: #000;
+  border: none;
+}
+.right-main-top-right-text{
+  color: #FFF;
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 500;
+}
